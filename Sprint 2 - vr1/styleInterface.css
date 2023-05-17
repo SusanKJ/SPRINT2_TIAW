@@ -1,0 +1,90 @@
+html,body {
+    height: 100%;    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bemVindo {
+    background: #f80707;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.profissionais, .treinos{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5deb4b2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+footer{
+    background: #f80707;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.agendamentos{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.niveis{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px;
+    align-items: center;  
+}
+   
+.card a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+
+.bemVindo {
+    font-size:small;
+}
+
+.profissionais,.treinos {
+    font-size: smaller;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;    
+}
+
+}

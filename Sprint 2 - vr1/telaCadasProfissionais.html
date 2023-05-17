@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissionais</title>
+    <link rel="stylesheet" href="styleBD.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header id="cabecalho">
+        <img src="img/logoFP.png" class="logo">
+        <h1>Cadastro de Profissionais</h1>
+    </header>
+
+    <section class="basedados">
+
+        <!--Preenchimento dados profissionais-->
+        <div id="formProfissionais">
+            <h4 class="dadosPessoais">Dados Pessoias</h4>
+            <label for="campoNome">Nome Completo:</label>
+            <input type="text" id="campoNome">
+            <label for="campoTelefone">Telefone:</label>
+            <input type="text" id="campoTelefone">
+            <label for="campoProfissao">Profissão:</label>
+            <input type="text" id="campoProfissao">
+        </div>
+
+        <!--Disponibilidade para atendimento-->
+        <div id="formDisponibilidade">
+            <h4 class="disponibilidade">Disponibilidade</h4>
+            <label for="campoDia">Dia da semana:</label>
+            <input type="text" id="campoDia">
+        </div>
+        <div class="horario">
+            <h4 class="horario">Horário</h4>
+            <label for="campoHoraDe">De:</label>
+            <input type="text" id="campoHoraDe">
+            <label for="campoHoraAs">às:</label>
+            <input type="text" id="campoHoraAs">
+        </div>
+        <button id="btnIncluirContato">Salvar</button>
+
+        <!--Chamar base de dados-->
+        <button id="btnCarregaDados">Carrega Dados</button>
+        <div id="tela"></div>
+
+    </section>
+    <script src="scriptBD.js"></script>
+</body>
+
+</html>

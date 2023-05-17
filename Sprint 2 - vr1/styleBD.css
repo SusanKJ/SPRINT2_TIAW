@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.basedados {
+    margin-top: 20px;
+}
+
+#tela {
+    background-color: rgb(247, 246, 231);
+}
+
+#cabecalho {
+    background: #f5dbdb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 10px;
+}
+
+h1 {
+    color: rgb(10, 15, 17);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-top: 15px;
+    width: 5rem;
+}
+
+
+#btnCarregaDados {
+    max-width: 100%;
+    display: block;
+    margin: 20px;
+}
+
+#btnIncluirContato {
+    max-width: 100%;
+    display: block;
+    margin: 20px;
+}
